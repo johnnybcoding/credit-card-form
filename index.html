@@ -10,10 +10,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
         <form class='credit-card'>
-            <div>
+            <div class='form-header'>
                 <h4 class='title'>Credit card detail</h4>
             </div>
 
@@ -39,6 +40,7 @@
                       <option value='december'>December</option>
                   </select>
                  </div>
+                 <div class='year'>
                  <select>
                      <option value='2019'>2019</option>
                      <option value='2020'>2020</option>
@@ -52,7 +54,6 @@
                  </select>
              </div>
             </div>
-
             <!--Card Verification Field-->
             <div class='card-verification'>
                 <div class='cvv-input'>
@@ -62,6 +63,7 @@
                 </div>
                 </div>
             </div>
+            <button type='submit' class='proceed-btn'><a href='#'>Proceed</a></button>
         </form>
 
         <script src="" async defer></script>
